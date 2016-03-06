@@ -7,6 +7,7 @@ fn main(){
         println!("shadow: {}", long_lived_binding);
     }
     println!("Outer: {}", long_lived_binding);
+    // println!("Inner: {}", short_lived_binding);
     let long_lived_binding = 'a';
     println!("Shadow outer: {}", long_lived_binding);
 }
